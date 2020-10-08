@@ -1,0 +1,12 @@
+:global(#masthead > .branding){
+  position: relative;
+  top: -7px;
+}
+#masthead{
+  display: flex;
+  justify-content: space-between;
+  opacity: 1;
+  background-color: transparent;
+  transition: opacity .2s 0s, filter .3s;
+  /* border-radius: 0 0 10rem 10rem; */
+}

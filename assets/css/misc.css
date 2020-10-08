@@ -1,0 +1,24 @@
+.top-of-page{
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 9000000;
+  bottom: 20rem;
+  right: 60rem;
+  opacity: 0;
+  padding: 10rem 30rem;
+  border-radius: 30rem;
+  pointer-events: all;  
+  transform: translateY(200px);
+  transition: opacity .4s, transform .8s;
+}
+.top-of-page.show{
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: all;
+}
+
+.top-of-page svg{
+  margin-left: 15rem;
+  fill: var(--accent-secondary-color);
+}

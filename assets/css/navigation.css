@@ -1,0 +1,66 @@
+header{
+  position: sticky;
+  top: 0;
+  z-index: 100000;
+}
+nav > .navigation{
+  font-size: 31.1rem;
+  font-weight: bold;
+}
+
+#burger{
+  position: relative;
+  top: -0rem;
+  display: none;
+}
+
+nav > .navigation a{
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+a{
+  text-decoration: none;  
+}
+
+.social{
+  display: flex;
+  position: relative;
+  top: 2px;
+  margin: 0 40rem 0 90rem;
+  align-items: center;
+  font-size: 16rem;
+}
+.social > svg{
+  margin-right: 12rem;
+}
+.active{
+  color: var(--accent-color);
+}
+
+.navigation{
+  display: flex;
+  align-items: center;
+}
+
+.navigation > a{
+  margin: 0 0 0 50rem;
+}
+
+.close-navigation{
+  display: none;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.close-navigation svg{
+  fill: var(--accent-secondary-color);
+}

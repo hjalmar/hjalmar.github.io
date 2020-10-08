@@ -1,0 +1,116 @@
+@import "variables.css";
+@import "reset.css";
+@import "typography.css";
+
+/* header */
+@import "header.css";
+@import "header-desktop.css" (min-width: 1350px);
+@import "header-mobile.css" (max-width: 1350px);
+
+/* work */
+@import "work.css";
+@import "work-mobile.css" (max-width: 1350px);
+
+/* about */
+@import "about-desktop.css" (min-width: 1350px);
+@import "about-mobile.css" (max-width: 1350px);
+
+/* navigation */
+@import "navigation.css";
+@import "navigation-mobile.css" (max-width: 1350px);
+
+/* misc */
+@import "misc.css";
+@import "misc-mobile.css" (max-width: 1350px);
+
+/* general mobile variables */
+@import "mobile.css" (max-width: 650px);
+
+body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* padding: 40px; */
+  /* background-color: rgb(26, 28, 54); */
+  background-color: var(--bg-color);
+  overflow-y: scroll;
+}
+
+body::before{
+  content: '';
+  position: fixed;
+  top: -400px;
+  left: 50%;
+  background-image: url(/assets/images/jh-logo-outline.svg);
+  background-size: 1000px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  width: 1000px;
+  height: 2000px;
+  z-index: 100;
+  transform: translateX(calc(-50% - 150px)) rotate(20deg);
+  pointer-events: none;
+  opacity: .051;
+}
+
+#app{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  max-width: 1920px;
+  height: 100%;
+  box-shadow: 0 20px 90px rgba(13, 14, 32, 0.808);
+  z-index: 200;
+  padding-bottom: 80rem;
+  /* overflow-x: hidden; */
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 100rem 0;
+  padding: 0 20rem;
+}
+
+#router{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main section#intro:first-of-type{
+  margin: 100rem 0 50rem;
+}
+
+/* main section{
+  margin: 100rem 0;
+} */
+
+.content-max{
+  max-width: 1000px;
+}
+
+button{
+  border-radius: 4px;
+  margin: 30rem 0;
+  align-self: center;
+  padding: 15rem 65rem;
+  color: var(--accent-secondary-color);
+  background: var(--accent-color);
+  border: none;
+  font-weight: bold; 
+}
+
+em, a{
+  font-weight: bold;
+  color: var(--em-color);
+  font-style: normal;
+}
+
+a:hover{
+  filter: brightness(110%);
+}

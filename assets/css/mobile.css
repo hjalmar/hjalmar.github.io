@@ -1,0 +1,12 @@
+:root{
+  --scale: .8px !important;
+}
+
+
+nav{
+  max-width: none;
+}
+
+#masthead{
+  padding: 30rem;
+}

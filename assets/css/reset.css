@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;700;900&display=swap');
+
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  box-sizing: border-box;
+  letter-spacing: var(--letter-spacing);
+}
+
+html, body{
+  min-height: 100vh;
+}
+
+html{
+  font-size: var(--scale);
+}
+
+body{
+  font-size: 19rem;
+  font-family: 'Heebo', sans-serif;
+  color: var(--color);
+  background-color: var(--bg-color);
+}
+
+.app-region{
+  -webkit-app-region: drag;
+}
+
+.no-drag{
+  -webkit-app-region: no-drag;
+}
+
+::selection{
+  background-color: var(--accent-color);
+  color: var(--accent-secondary-color);
+}
+
+button{
+  cursor: pointer;
+}
+
+.prevent-transition{
+  transition: none !important;
+}

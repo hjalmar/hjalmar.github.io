@@ -1,0 +1,17 @@
+#masthead{
+  padding: 25rem 60rem;
+  z-index: 999999999999999999;
+}
+
+
+#masthead.sticky > svg, #masthead.sticky > button{
+  opacity: .2;
+  transition: opacity .2s 0s;
+  filter: brightness(0%);
+  background: transparent;
+}
+
+#masthead.sticky:hover > svg, #masthead.sticky:hover > button{
+  opacity: 1;
+  transition: opacity .2s 0s;
+}

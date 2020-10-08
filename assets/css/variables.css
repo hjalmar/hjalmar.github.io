@@ -1,0 +1,25 @@
+/* general styles */
+:root{
+  --scale: 1px;
+  --letter-spacing: -.4rem;
+}
+
+/* dark theme */
+[data-theme="dark"]{
+  --bg-color: #364772;
+  --color: #5d7eb5;
+  --em-color: #7f9ed0;
+  --detail: var(--em-color);
+  --accent-color: #0dcae7;
+  --accent-secondary-color: #172036;
+}
+
+/* light theme */
+[data-theme="light"]{
+  --detail: #657185;
+  --bg-color: #cacfdd;
+  --color: #172036;
+  --em-color: #172036;
+  --accent-color: #172036;
+  --accent-secondary-color: #dce2ee;
+}
