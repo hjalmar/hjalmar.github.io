@@ -11,6 +11,11 @@
   background: transparent;
 }
 
+#masthead.sticky > svg{
+  opacity: 0 !important;
+  transition: all 0s;
+}
+
 #masthead.sticky:hover > svg, #masthead.sticky:hover > button{
   opacity: 1;
   transition: opacity .2s 0s;
