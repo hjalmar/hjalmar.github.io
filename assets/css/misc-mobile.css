@@ -1,3 +1,16 @@
-section#intro:first-of-type{
-  margin: 0 0 100rem!important;
+.top-of-page{
+  z-index: 9000000;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 0px) !important;
+  transition: none;
+}
+.top-of-page.show{
+  opacity: 1;
+  pointer-events: all;
+}
+
+.top-of-page svg{
+  margin-left: 15rem;
+  fill: var(--accent-secondary-color);
 }
