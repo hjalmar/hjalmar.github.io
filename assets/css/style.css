@@ -114,3 +114,7 @@ em, a{
 a:hover{
   filter: brightness(110%);
 }
+
+#intro{
+  padding: 0 20rem;
+}

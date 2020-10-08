@@ -8,9 +8,8 @@
 }
 
 #about .profile{
-  width: 350px;
+  width: 315px;
   height: 466px;
-  min-width: 350px;
   margin: 0 0 120rem;
 }
 
@@ -21,4 +20,7 @@
   object-fit: cover;
   border-radius: 5px;
   box-shadow: 0 10px 50px rgba(0, 0, 0, 0.13);
+}
+#about .content{
+  padding: 0 20rem;
 }
