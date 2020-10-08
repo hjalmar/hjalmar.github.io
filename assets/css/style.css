@@ -64,7 +64,7 @@ body::before{
   height: 100%;
   box-shadow: 0 20px 90px rgba(13, 14, 32, 0.808);
   z-index: 200;
-  padding-bottom: 80rem;
+  padding-bottom: 180rem;
   /* overflow-x: hidden; */
 }
 
@@ -72,7 +72,7 @@ main{
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 100rem 0;
+  margin: 100rem 0 0;
   padding: 0 20rem;
 }
 

@@ -5,7 +5,8 @@
 
 
 #masthead.sticky > svg, #masthead.sticky > button{
-  opacity: .2;
+  /* opacity: .2; */
+  opacity: 1;
   transition: opacity .2s 0s;
   filter: brightness(0%);
   background: transparent;
