@@ -1,0 +1,36 @@
+*, ::before, ::after{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+  font-family: inherit;
+  text-decoration: inherit;
+  box-sizing: border-box;
+  fill: inherit;
+}
+
+html, body{
+  height: 100%;
+  min-height: 100%;
+}
+
+html{
+  font-size: var(--scale);
+}
+
+::selection{
+  background-color: rgb(225, 225, 225);
+  /* color: rgb(55, 38, 32); */
+}
+
+button{
+  cursor: pointer;
+}
+
+ul{
+  list-style: none;
+}
+
+.prevent-transition{
+  transition: none !important;
+}

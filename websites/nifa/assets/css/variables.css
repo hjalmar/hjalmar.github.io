@@ -1,0 +1,15 @@
+/* general styles */
+:root{
+  --scale: 1px;
+  --letter-spacing: -.4rem;
+  --font-size: 18rem; 
+  --bg-color: #fcfaf5;
+  --max-width: 1400px;
+  --border-color: #f7f4ec;
+  /* theme */
+  --text-color: #656565;
+  --yellow: #ffcd1c;
+  --orange: #ef7d00;
+  --green: #7cc5ad;
+  --gray: #878787;
+}

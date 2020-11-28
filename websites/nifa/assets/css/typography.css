@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,300;1,400&display=swap');
+
+body{
+  font-size: var(--font-size);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-color);
+  line-height: 30rem;
+  /* font-weight: 300; */
+}
+
+p{
+  margin: 15rem 0;
+}
+/* pre{} */
+h1, h2, h3, h4, h5, h6{
+  margin: 15rem 0;
+  font-family: arial, sans-serif;
+  font-weight: 900;
+  letter-spacing: -1rem;
+  color: var(--orange);
+}
+/* h1{} */
+h2{
+  font-size: 56rem;
+  line-height: 60rem;
+}
+h3{
+  font-size: 27rem;
+  line-height: 35rem;
+}
+/* h4{} */
+/* h5{} */
+/* h6{} */
+input[type=text]{
+  padding: 14rem 30rem;
+  background-color: white;
+  border: none;
+}
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 95rem;
+  background-color: var(--green);
+  font-size: 28rem;
+  border: none;
+  color: white;
+  font-weight: bold;
+  transition: transform .25s;
+}
+.button:hover{
+  transform: scale(1.08);
+}
+.yellow, .orange, .green, .gray{
+  background-color: var(--color);
+}
+.yellow{--color: var(--yellow);}
+.orange{--color: var(--orange);}
+.green{--color: var(--green);}
+.gray{--color: var(--gray);}
