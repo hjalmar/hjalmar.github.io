@@ -58,3 +58,10 @@ input[type=text]{
 .orange{--color: var(--orange);}
 .green{--color: var(--green);}
 .gray{--color: var(--gray);}
+
+/* mobile sized screens */
+@media screen and (max-width: 950px){
+  .button{
+    font-size: 20rem;
+  }
+}

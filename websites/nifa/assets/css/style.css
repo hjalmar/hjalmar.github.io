@@ -6,3 +6,10 @@
 body{
   background-color: var(--bg-color);
 }
+
+/* medium sized screens */
+@media screen and (max-width: 1230px){
+  :root{
+    --scale: .8;
+  }
+}

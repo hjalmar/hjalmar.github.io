@@ -1,6 +1,6 @@
 /* general styles */
 :root{
-  --scale: 1px;
+  --scale: 1;
   --letter-spacing: -.4rem;
   --font-size: 18rem; 
   --bg-color: #fcfaf5;
