@@ -16,6 +16,8 @@ html, body{
 
 html{
   font-size: calc(var(--scale) * 1px);
+  touch-action: manipulation;
+  -ms-touch-action: manipulation;
 }
 
 ::selection{
