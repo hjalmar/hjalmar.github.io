@@ -6,6 +6,10 @@
 body{
   background-color: var(--bg-color);
 }
+/* prevent navigation scroll when nav is open on mobile devices */
+body.nav-open{
+  touch-action: none;
+}
 
 /* medium sized screens */
 @media screen and (max-width: 1230px){
